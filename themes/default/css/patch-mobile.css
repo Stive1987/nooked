@@ -1,0 +1,30 @@
+
+@media (max-width: 767px) 
+{
+	.fix-maxwidth{ table-layout: fixed; width:100% }
+
+	.cke_skin_kama .cke_toolgroup { background-color:#fff }
+	
+	#centre-contenu td textarea,
+	#opentable td textarea{ width:100% !important; max-width:100% !important }
+	
+	/* textarea 1.7.9 */
+	.cke_wrapper.cke_ltr,
+	.cke_editor_e_basic{ width:100% !important; max-width:100% !important }		
+	
+	.cke_skin_kama *, 
+	.cke_skin_kama a:hover, 
+	.cke_skin_kama a:link, 
+	.cke_skin_kama a:visited, 
+	.cke_skin_kama a:active  { white-space: normal !important }
+}
+
+@media (max-width: 480px) 
+{
+	.overflow-full{ width: 225px; overflow: auto }
+}
+
+@media (min-width: 480px) and (max-width: 767px) 
+{
+	.overflow-full{ width: 360px; overflow: auto }
+}
